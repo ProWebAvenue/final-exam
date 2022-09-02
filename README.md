@@ -1,8 +1,9 @@
-<!DOCTYPE html>
-<html lang ="en">
+<!doctype html>
+<html>
 <head>
-<meta charset = "UTF-8">
-<title>My test</title>
+<meta charset="utf-8">
+<title>Dashboard</title>
+<link rel="stylesheet" href="/dashboard.css">
 </head>
 <body>
 <div class="signoff-header">
