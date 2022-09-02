@@ -1,0 +1,512 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {
+	font-family: 'Open Sans';
+	color: #000;
+	}	
+	
+/* SidebarElements */
+
+
+.sidebar {
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px 0px 0px;
+gap: 8px;
+isolation: isolate;
+width: 255px;
+height: 2514px;
+left: 34px;
+background: #FFFFFF;
+border-radius: 0px;
+}
+
+/* Sidebar links active, mouse over, selected */  /* icons:  dashboard: union-icon, vision preferences: writing-icon, reporting:  reporting-icon, faqs: headphone-icon, vision alerts: redbell-icon */
+
+.sidebar-item-inactive-layout-background {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	padding: 16px;
+	gap: 8px;
+	width: 255px;
+	height: 56px;
+	border-radius: 4px;
+	/* inside layout */
+	flex: none;
+	order: 3;
+	align-self: stretch;
+	flex-grow: 0;
+	z-index: 3;
+}
+
+.sidebar-item-active-layout-background {
+	display: flex;
+	flex-direction: row;
+	align-items: flex-start;
+	padding: 16px;
+	gap: 8px;
+	width: 255px;
+	height: 56px;
+	background: #82d5e7;
+	border-radius: 4px;
+	flex: none; /*inside auto layout */
+	order: 2;
+	align-self: stretch;
+	flex-grow: 0;
+	z-index: 2;
+}
+
+
+
+
+
+/* SignOff-Header */
+
+.signoff-header {
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+align-items: center;
+padding: 24px 20px;
+gap: 178px;
+position: absolute;
+width: 1400px;
+height: 62px;
+left: 34px;
+top: 0px;
+background: rgba(255, 255, 255, 0.96);
+box-shadow: 0px 0px 0px rgba(0, 0, 0, 0.1), 0px 2px 8px rgba(0, 0, 0, 0.1);
+border-radius: 4px;
+}
+
+.nav-header {
+	width: 25%;
+	}
+
+li {
+   display: inline;
+   	}
+
+/* _PURO-LinkHeader */
+
+._PURO-LinkHeader {
+font-family: 'Open Sans';
+font-style: normal;
+font-weight: 300;
+font-size: 16px;
+line-height: 24px;
+padding-left: 20px;
+gap: 8px;
+	
+/* identical to box height, or 150% */
+
+text-align: center;
+color: #111111;
+}
+
+/* API DASHBOARD */
+
+.api-dashboard-text {
+left: 728px;
+}
+
+
+/* SUPPORT */
+
+.support-text {
+width: 73px;
+height: 24px;
+left: 893px;
+margin-top: -200px;
+}
+
+
+/* Horizontal line underneath filters */
+
+.horizontal-line {
+position: absolute;
+width: 1101px;
+height: 0px;
+left: 324px;
+top: 449.03px;
+border: 1px solid #C0C0C0;
+transform: rotate(-0.05deg);
+}
+
+/* back */
+
+.back-link {
+position: absolute;
+width: 27px;
+height: 30px;
+left: 344px;
+top: 869px;
+font-family: 'Open Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 30px;
+
+/* identical to box height, or 250% */
+color: #000000;
+}
+
+
+/* View One */
+
+.view-one-text {
+position: absolute;
+left: 21.22%;
+right: 66.73%;
+top: 8.52%;
+bottom: 90.66%;
+font-family: 'Open Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+line-height: 19px;
+/* or 79% */
+color: #001996;
+}
+
+
+/* Graph section */
+
+.graph-section {
+position: absolute;
+width: 1133.83px;
+height: 589px;
+left: 311px;
+top: 693px;
+}
+
+
+/* Change a view box */
+
+.change-a-view {
+position: absolute;
+width: 125px;
+height: 21px;
+left: 1299px;
+top: 734px;
+}
+
+
+/* Pick, Save, Download section */
+
+.pick-save-download {
+	position: absolute;
+	width: 410px;
+	height: 34px;
+	left: 1029px;
+	top: 240px;
+	}
+
+
+/* Filter and Data section size, also room to add the pick-save-icon */
+
+
+.filter-data-sort {
+	position: absolute; 
+	width: 1097px;
+	height: 184px;
+	top: 273px;
+	}
+
+.filter-data-sort-text {
+	font-family: 'Open Sans';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 24px;
+	/* or 150% */
+	color: #000;
+}
+
+.pick-save-icon {
+	width: 34px;
+	height: 27px;
+	left: 10px;
+}
+
+
+
+/* Light blue flex box section size */
+
+.light-blue-flexbox-section {
+position:absolute;
+width: 1103px;
+height: 116px;
+left: 324px;
+top: 502px;
+}
+
+
+/* Quick View flex individual boxes */
+
+.light-blue-boxes {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: flex-start;
+	padding: 16px;
+	gap: 57px;
+	position: absolute;
+	width: 174px;
+	height: 116px;
+	left: 324px;
+	top: 502px;
+	background: rgba(0, 169, 206, 1, 1);
+	border: 1px solid #c0c0c0;
+	border-radius: 8px;
+}
+
+.light-blue-outdelivery-box {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: flex-start;
+	padding: 16px;
+	gap: 57px;
+	position: absolute;
+	width: 194px;
+	height: 116px;
+	left: 869px;
+	top: 502px;
+	background: rgba(0, 169, 206, 1, 1);
+	border: 1px solid #c0c0c0;
+	border-radius: 8px;
+	}
+
+/* Light blue box text header */
+
+.light-blue-box-header {
+	width: 107px;
+	height: 44px;
+	font-family: 'Open Sans';
+	font-weight: 600;
+	font-size: 30px;
+	line-height: 40px;
+	/* or 133% */
+	color: #000;
+}
+
+.light-box-icons {
+	width: auto;
+	height: 36.31px;
+	flex: none;
+	order: 1; 
+	flex-grow: 0;
+}
+
+.light-blue-box-text {
+	width: auto;
+	height: 24px;
+	font-family: 'Open Sans';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 14px;
+	line-height: 24px;
+	/* identical to box height, or 171% */
+	color: #111111;
+	flex: none;
+	order: 1;
+	flex-grow: 0;
+}
+
+
+/* Data Grid section */
+
+
+.data-grid-section-size {
+	box-sizing: border-box;
+	position: absolute;
+	width: 1143px;
+	height: auto; /* displayed at 608px in height */
+	left: 317px;
+	top: 1450px;
+	border: 1px solid #a2aaad;
+}
+
+.data-grid-header {
+	position: absolute;
+	width: 1141px;
+	height: 49px;
+	left: 319px;
+	top: 1502px;
+	background: #f4f4f4;
+	}
+
+.data-grid-white-background {
+	position: absolute;
+	width: 1141px;
+	height: 49px;
+	left: 319px;
+	top: 1502px;
+	background: #fff;
+	}
+
+.data-grid-gray-background {
+	position: absolute;
+	width: 1141px;
+	height: 49px;
+	left: 319px;
+	top: 1502px;
+	background: #ededed;
+	}
+
+.data-grid-header {
+	position: absolute;
+	width: 76px;
+	height: 48px;
+	font-family: 'Open Sans';
+	font-style: normal;
+	font-weight: 600;
+	font-size: 16px;
+	line-height: 24px;
+	/* or 150% */
+	letter-spacing: 0.01em;
+	color: #000;
+	}
+
+.data-grid-text {
+	position: absolute;
+	font-family: 'Open Sans';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 24px;
+	/* identical to box height, or 150% */
+	letter-spacing: 0.01em;
+	color: #000;
+	}
+
+.global-search-section {
+	position: absolute;
+	width: 1143px;
+	height: 76px;
+	left: 317px;
+	top:  1363px;
+	background: #f5f6f6;
+	}
+
+
+
+/* Alert Info box size */
+
+.alert-box-size {
+	box-sizing: border-box;
+	display: flex;
+	flex-direction: row;
+	align-items: flex-start;
+	padding: 24px;
+	gap: 16px;
+	position: absolute;
+	width: 1089px;
+	height: 183px;
+	left: 324px;
+	top: 2181px;
+	background: rgba(251, 221, 64, 0.2);
+	border: 1px dashed #c0c0c0;
+	border-radius: 4px;
+	}
+
+
+.alert-icon {  /* icon named square-exclamation 1 */
+	width: 24px;
+	height: 24px;
+	top: 24px;
+	left: 24px;
+	}
+
+
+.alert-box-text-box {
+	width: 1001px;
+	height: 120px;
+	font-family: 'Open Sans';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 24px;
+	/* or 150% */
+	color: #000;
+	flex: none;
+	order: 1;
+	flex-grow: 1;
+	}
+
+
+/* Faqs, bot section */
+
+.faqs-box {
+	box-sizing: border-box;
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	padding: 24px;
+	gap: 24px;
+	position: absolute;
+	width: 1093px;
+	height: 312px;
+	top: 2382px;
+	background: rgba(163, 224, 237, 0.4);
+	border: 1px solid rgba(0, 169, 206, 0.2);
+	border-radius: 4px;
+	}
+
+.faqs-box-icon { /* icon named icon-corporate-stewardship 1 */
+	position: absolute;
+	width: 125.65px;
+	height: 143px;
+	left: 334px;
+	top: 2429px;
+	}
+	
+faqs-box-header { /*We're here to help, placeholder text */
+	position: absolute;
+	width: 743px;
+	height: 46px;
+	left: 476px;
+	top: 2461px;
+	font-family: 'Open Sans';
+	font-style: normal;
+	font-size: 30px;
+	line-height: 41px;
+	display: flex;
+	align-items: center;
+	color: #001996;
+	}
+	
+.faqs-box-text {     /* placeholder text */
+	position: absolute; 
+	width: 477.31px;
+	height: 88px;
+	left: 459.69px;
+	top: 2506px;
+	}
+
+.faqs-box-arrow  {   /* Arrow group image */
+	position: absolute;
+	width: 504px;
+	height: 264px;
+	left: 919px;
+	top: 2397px;
+	}
+
+.faqs-box-terms { /* Terms and conditions text */
+	position: absolute;
+	width: 215px;
+	height: 24px;
+	left: 761px;
+	top: 2656px;
+	font-family: 'Open Sans';
+	font-weight: 400;
+	font-size: 12px;
+	line-height: 24px;  /* identical to box height, or 200%  */
+	color: #000;
+	}
+
+
